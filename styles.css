@@ -96,7 +96,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 700; line-height: 1.15; }
 }
 a.brand:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(31, 74, 55, .12); border-color: var(--sage); }
 .brand-logo { display: flex; align-items: center; justify-content: center; height: 80px; width: 100%; }
-.brand-logo img { max-width: 100%; max-height: 80px; object-fit: contain; }
+.brand-logo img { max-width: 100%; max-height: 80px; object-fit: contain; border-radius: 12px; }
+.brand-name { font-weight: 600; color: var(--green-dark); }
 .wordmark { font-family: var(--serif); font-weight: 700; font-size: 1.35rem; color: var(--green-dark); line-height: 1.2; }
 .wordmark small { display: block; font-family: var(--sans); font-weight: 500; font-size: .75rem; color: var(--muted); }
 .brand-tag { font-size: .9rem; color: var(--muted); }
