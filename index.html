@@ -5,12 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>eDefend</title>
   <meta name="description" content="eDefend: defending the earth with sustainability, health, and compassion for all.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap nav">
-      <a class="logo" href="#top">eDefend</a>
+      <a class="logo" href="#top">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="currentColor" opacity=".12"/><path d="M16 6c6 4 8 9 6 14-1.5 3.6-4.5 5.6-6 6-1.5-.4-4.5-2.4-6-6-2-5 0-10 6-14z" fill="currentColor"/><path d="M16 10v16" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
+        eDefend
+      </a>
       <nav>
         <a href="#mission">Mission</a>
         <a href="#portfolio">Portfolio</a>
@@ -21,71 +28,108 @@
 
   <main id="top">
     <section class="hero">
-      <div class="wrap">
-        <h1>Defending the earth.</h1>
-        <p class="lead">eDefend supports companies and work that advance sustainability, health, and compassion for all.</p>
-        <a class="button" href="#portfolio">See our portfolio</a>
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Sustainability · Health · Compassion</p>
+          <h1>Defending the earth.</h1>
+          <p class="lead">eDefend supports companies and work that advance sustainability, health, and compassion for all.</p>
+          <a class="button" href="#portfolio">See our portfolio</a>
+        </div>
+        <svg class="hero-art" viewBox="0 0 400 400" aria-hidden="true">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7fb685"/>
+              <stop offset="1" stop-color="#2f6b4f"/>
+            </linearGradient>
+          </defs>
+          <circle cx="200" cy="200" r="170" fill="#e6efe2"/>
+          <circle cx="200" cy="200" r="120" fill="url(#g1)"/>
+          <path d="M120 175c25-30 55-25 70-5s40 20 55-5 45-15 40 20-40 45-60 30-35 20-60 10-60-30-45-50z" fill="#cfe3c6" opacity=".85"/>
+          <path d="M150 255c20-10 40 0 55 10s35 5 45-5" stroke="#cfe3c6" stroke-width="10" fill="none" stroke-linecap="round" opacity=".7"/>
+          <path d="M300 70c30 20 40 50 25 75-10 17-25 25-32 27-7-2-22-10-32-27-15-25-5-55 39-75z" fill="#4f9a6a"/>
+          <path d="M298 90v75" stroke="#e6efe2" stroke-width="3" stroke-linecap="round"/>
+          <path d="M80 290c-25 5-40 25-35 45 3 12 10 18 14 19 5-1 15-6 22-17 10-17 8-35-1-47z" fill="#7fb685"/>
+        </svg>
       </div>
     </section>
 
     <section id="mission" class="section">
-      <div class="wrap">
+      <div class="wrap mission">
         <h2>Our Mission</h2>
         <p>We believe a healthy planet, healthy people, and kindness to every living being go hand in hand. eDefend backs ideas that protect the environment, improve health, and extend compassion to all, people and animals alike.</p>
+        <div class="pillars">
+          <div class="pillar">
+            <span class="pillar-icon" aria-hidden="true">🌍</span>
+            <h3>Sustainability</h3>
+            <p>Food and materials that are kinder to the planet.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon" aria-hidden="true">💚</span>
+            <h3>Health</h3>
+            <p>Better choices for healthier lives.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon" aria-hidden="true">🐾</span>
+            <h3>Compassion</h3>
+            <p>A future that's kind to every living being.</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="portfolio" class="section">
+    <section id="portfolio" class="section alt">
       <div class="wrap">
         <h2>Portfolio</h2>
-        <p>Companies we've invested in.</p>
-        <div class="grid">
-          <a class="card company" href="https://www.betternaturetempeh.co/" target="_blank" rel="noopener">
-            <h3>Better Nature</h3>
-            <p>Tempeh made from whole beans and grains. Give the chickens a day off.</p>
+        <p class="section-lead">Companies we've invested in.</p>
+        <div class="logo-wall">
+          <a class="brand" href="https://www.betternaturetempeh.co/" target="_blank" rel="noopener" title="Tempeh made from whole beans and grains. Give the chickens a day off.">
+            <span class="brand-logo"><span class="wordmark">Better Nature</span></span>
+            <span class="brand-tag">Give the chickens a day off.</span>
           </a>
-          <a class="card company" href="https://fyta.com/products/protein-powder" target="_blank" rel="noopener">
-            <h3>Fyta</h3>
-            <p>The Game Changer: plant-based protein powder.</p>
+          <a class="brand" href="https://fyta.com/products/protein-powder" target="_blank" rel="noopener" title="The Game Changer: plant-based protein powder.">
+            <span class="brand-logo"><span class="wordmark">Fyta</span></span>
+            <span class="brand-tag">The Game Changer</span>
           </a>
-          <a class="card company" href="https://www.craftycounter.com/products/wundereggs" target="_blank" rel="noopener">
-            <h3>WunderEggs</h3>
-            <p>Plant-based eggs by Crafty Counter.</p>
+          <a class="brand" href="https://www.craftycounter.com/products/wundereggs" target="_blank" rel="noopener" title="Plant-based eggs by Crafty Counter.">
+            <span class="brand-logo"><span class="wordmark">WunderEggs</span></span>
+            <span class="brand-tag">Plant-based eggs</span>
           </a>
-          <a class="card company" href="https://www.plantpowerfastfood.com/" target="_blank" rel="noopener">
-            <h3>Plant Power Fast Food</h3>
-            <p>100% plant-based fast food restaurants.</p>
+          <a class="brand" href="https://www.plantpowerfastfood.com/" target="_blank" rel="noopener" title="100% plant-based fast food restaurants.">
+            <span class="brand-logo"><span class="wordmark">Plant Power Fast Food</span></span>
+            <span class="brand-tag">100% plant-based fast food</span>
           </a>
-          <a class="card company" href="https://barvecue.com/" target="_blank" rel="noopener">
-            <h3>Barvecue</h3>
-            <p>Plant-based, wood-smoked barbecue.</p>
+          <a class="brand" href="https://barvecue.com/" target="_blank" rel="noopener" title="Plant-based, wood-smoked barbecue.">
+            <span class="brand-logo"><span class="wordmark">Barvecue</span></span>
+            <span class="brand-tag">Wood-smoked plant-based BBQ</span>
           </a>
-          <a class="card company" href="https://juicymarbles.com/" target="_blank" rel="noopener">
-            <h3>Juicy Marbles</h3>
-            <p>Plant-based whole cut steak and juicy ribs.</p>
+          <a class="brand" href="https://juicymarbles.com/" target="_blank" rel="noopener" title="Plant-based whole cut steak and juicy ribs.">
+            <span class="brand-logo"><span class="wordmark">Juicy Marbles</span></span>
+            <span class="brand-tag">Whole cut steak and juicy ribs</span>
           </a>
-          <a class="card company" href="https://uncagedinnovations.com/" target="_blank" rel="noopener">
-            <h3>Uncaged Innovations</h3>
-            <p>Animal-free leather alternatives.</p>
+          <a class="brand" href="https://uncagedinnovations.com/" target="_blank" rel="noopener" title="Animal-free leather alternatives.">
+            <span class="brand-logo"><span class="wordmark">Uncaged Innovations</span></span>
+            <span class="brand-tag">Animal-free leather</span>
           </a>
         </div>
+
         <h3 class="past-title">Past investments</h3>
-        <div class="logo-grid">
-          <div class="logo-tile">Libre Food</div>
-          <div class="logo-tile">Hooray Bacon</div>
-          <div class="logo-tile">Kinder Beauty</div>
-          <div class="logo-tile">Grounded Cheese</div>
-          <div class="logo-tile">Evo Eggs</div>
-          <div class="logo-tile">Meta Burger</div>
-          <div class="logo-tile">EATV<br>(ETF, NYSE)</div>
+        <div class="logo-wall small">
+          <div class="brand"><span class="brand-logo"><span class="wordmark">Libre Food</span></span></div>
+          <div class="brand"><span class="brand-logo"><span class="wordmark">Hooray Bacon</span></span></div>
+          <div class="brand"><span class="brand-logo"><span class="wordmark">Kinder Beauty</span></span></div>
+          <div class="brand"><span class="brand-logo"><span class="wordmark">Grounded Cheese</span></span></div>
+          <div class="brand"><span class="brand-logo"><span class="wordmark">Evo Eggs</span></span></div>
+          <div class="brand"><span class="brand-logo"><span class="wordmark">Meta Burger</span></span></div>
+          <div class="brand"><span class="brand-logo"><span class="wordmark">EATV<small>ETF · NYSE</small></span></span></div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section alt">
+    <section id="contact" class="section contact">
       <div class="wrap">
-        <h2>Contact</h2>
-        <p>We'd love to hear from you: <a href="mailto:hello@edefend.us">hello@edefend.us</a></p>
+        <h2>Let's talk</h2>
+        <p>We'd love to hear from you.</p>
+        <a class="button light" href="mailto:hello@edefend.us">hello@edefend.us</a>
       </div>
     </section>
   </main>
