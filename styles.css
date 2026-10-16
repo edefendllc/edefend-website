@@ -145,3 +145,7 @@ a.brand:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(31, 74
   .nav { height: auto; flex-direction: column; gap: 6px; padding-top: 10px; padding-bottom: 10px; }
   .nav nav a { margin: 0 8px; }
 }
+
+.nav { height: 84px; }
+.logo-img { height: 68px; width: auto; display: block; }
+@media (max-width: 760px) { .nav { height: auto; } .logo-img { height: 60px; } }
