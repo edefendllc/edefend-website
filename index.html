@@ -8,7 +8,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -36,22 +36,22 @@
           <p class="lead">eDefend supports companies and work that advance sustainability, health, and compassion for all.</p>
           <a class="button" href="#portfolio">See who we support</a>
         </div>
-        <svg class="hero-art" viewBox="0 0 400 400" role="img" aria-label="eDefend logo: the earth held by leaves">
+        <svg class="hero-art" viewBox="0 0 400 400" role="img" aria-label="eDefend logo: hand-lettered eDefend on the earth, with leaves">
           <defs>
             <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stop-color="#7fb685"/>
               <stop offset="1" stop-color="#2f6b4f"/>
             </linearGradient>
+            <clipPath id="inner"><circle cx="200" cy="200" r="120"/></clipPath>
+            <filter id="wash" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="2"/><feDisplacementMap in="SourceGraphic" scale="9"/><feGaussianBlur stdDeviation="1.4"/></filter>
           </defs>
           <circle cx="200" cy="200" r="170" fill="#e6efe2"/>
           <circle cx="200" cy="200" r="120" fill="url(#g1)"/>
-          <path d="M120 175c25-30 55-25 70-5s40 20 55-5 45-15 40 20-40 45-60 30-35 20-60 10-60-30-45-50z" fill="#cfe3c6" opacity=".55"/>
-          <path d="M150 255c20-10 40 0 55 10s35 5 45-5" stroke="#cfe3c6" stroke-width="10" fill="none" stroke-linecap="round" opacity=".5"/>
-          <g transform="rotate(-6 200 210)">
-            <text x="200" y="218" text-anchor="middle" font-family="Knewave, var(--serif)" font-size="44" fill="#fff" stroke="#1f4a37" stroke-width="5.5" stroke-linejoin="round" paint-order="stroke">eDefend</text>
-            <path d="M138 242c36-12 90-15 128-7" stroke="#1f4a37" stroke-width="13" fill="none" stroke-linecap="round"/>
-            <path d="M138 242c36-12 90-15 128-7" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/>
-          </g>
+          <g clip-path="url(#inner)"><g fill="#cfe3c6" opacity=".4" filter="url(#wash)"><g transform="translate(200 200) scale(0.2308) translate(-1010 -790)">
+<path d="M640 600c40-60 120-90 170-60s30 90 90 100 90 60 60 110-110 40-140 90-30 110-90 120-80-60-70-120-70-70-60-130 0-60 40-110z"/>
+<path d="M1180 470c60-20 150 10 200 70s30 120-20 140-60-30-110-10-60 70-110 50-40-90-20-140 20-90 60-110z"/>
+<path d="M1150 900c50-20 120 0 160 40s20 110-30 140-110 20-140-20-40-140 10-160z"/></g></g></g>
+          <image href="logos/edefend-lettering.png" x="104.0" y="119.2" width="180" height="169.5"/>
           <path d="M300 70c30 20 40 50 25 75-10 17-25 25-32 27-7-2-22-10-32-27-15-25-5-55 39-75z" fill="#4f9a6a"/>
           <path d="M298 90v75" stroke="#e6efe2" stroke-width="3" stroke-linecap="round"/>
           <path d="M80 290c-25 5-40 25-35 45 3 12 10 18 14 19 5-1 15-6 22-17 10-17 8-35-1-47z" fill="#7fb685"/>
